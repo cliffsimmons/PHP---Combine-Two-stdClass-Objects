@@ -24,13 +24,13 @@ combine_two_stdclass_objects(
 <br/>
 <h2>Example Usage</h2>
 ```
-$stdClass_object_1 = new stdObject();
-$stdClass_object_1->type = "motorcylce";
-$stdClass_object_1->wheel_count = 2;
+$stdclass_object_1 = new stdObject();
+$stdclass_object_1->type = "motorcylce";
+$stdclass_object_1->wheel_count = 2;
 
-$stdClass_object_2 = new stdObject();
-$stdClass_object_2->brand = "Yamaha";
-$stdClass_object_2->color = "red";
+$stdclass_object_2 = new stdObject();
+$stdclass_object_2->brand = "Yamaha";
+$stdclass_object_2->color = "red";
 
-$merged_stdClass_object = combine_two_stdclass_objects( $stdclass_object_1, $stdclass_object_2 );
+$merged_stdclass_object = combine_two_stdclass_objects( $stdclass_object_1, $stdclass_object_2 );
 ```
